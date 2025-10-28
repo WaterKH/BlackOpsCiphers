@@ -1,0 +1,206 @@
+[
+  {
+    "game_name": "Black Ops III",
+    "alias": "bo3",
+    "maps": [
+      {
+        "map_name": "Shadows of Evil",
+        "alias": "SoE",
+        "ciphers": [
+          {
+            "name": "Cipher #1",
+            "location": {
+              "name": "Waterfront Upstairs",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Four-square",
+              "documentation_link": "https://en.wikipedia.org/wiki/Four-square_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_zod_cipher_01_c",
+            "key": "AOGNKZBCPSEWFMUHXDIRTLVYQ {{ NEW_LINE }} HVWFCTGQMZPESYLANRBXOUIDK",
+            "ciphertext": "MGIQMROXGXRFNMMRSWRWYEINZSGXXWNZWQHWEPPQXIWBBKZYWHKXMWFYGK",
+            "is_solved": true,
+            "plaintext": "misinterestedintheseworthlessbeingsallhisworkwillbeundonex",
+            "formatted_plaintext": "M is interested in these worthless beings. All his work will be undone. X",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "To reveal this cipher, you must hold square on a brick near the beast pedestal."
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              ""
+            ],
+            "order": 0
+          },
+          {
+            "name": "Cipher #2",
+            "location": {
+              "name": "Ritual Area",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Straddling Checkerboard",
+              "documentation_link": "https://en.wikipedia.org/wiki/Straddling_checkerboard"
+            },
+            "texture_name": "i_mtl_p7_zm_zod_cipher_02_c",
+            "key": "WVHBIGQROSTJNXFKMCPDAZLUYE {{ NEW_LINE }} 3 & 7",
+            "ciphertext": "5723805747453463230713002723238753132477713034773227770747234387531323430323672574",
+            "is_solved": true,
+            "plaintext": "iamwillingtodowhatmustbedonetheplanmustnotfail",
+            "formatted_plaintext": "I am willing to do what must be done. The plan must not fail.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "To view this cipher, it is located on the underside of the ritual table."
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              ""
+            ],
+            "order": 1
+          },
+          {
+            "name": "Cipher #3",
+            "location": {
+              "name": "Junction & Canals",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Porta",
+              "documentation_link": "https://sites.google.com/site/cryptocrackprogram/user-guide/cipher-types/substitution/porta"
+            },
+            "texture_name": "i_mtl_p7_zm_zod_cipher_03_c",
+            "key": "ONLYTHECURSEDSURVIVE",
+            "ciphertext": "MNWQUTTDIBRNZYEFJZDFYAJGNUSEFVYTOENLSQOXTBAHUUPRJPNOFFJPOLVPWXBTNIRODFFEENO",
+            "is_solved": true,
+            "plaintext": "theelderswillcontinuetoseedspaceandtimeimustleadthemtotheplacetheycannotsee",
+            "formatted_plaintext": "The elders will continue to seed space and time. I must lead them to the place they cannot see.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "How do we solve this?"
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              ""
+            ],
+            "order": 2
+          },
+          {
+            "name": "Cipher #4",
+            "location": {
+              "name": "Boxing Gym Office",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Trifid",
+              "documentation_link": "https://en.wikipedia.org/wiki/Trifid_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_zod_cipher_04_c",
+            "key": "ABCDEFGHIJKLMNOPQRSTUVWXYZ.",
+            "ciphertext": "HHGGGAVVGGFMIEAPQVNBBYVTNJICRUUGPYRELEOPK.ZHDC",
+            "is_solved": true,
+            "plaintext": "althoughtheyhavediscoveredthewayprimiswillfail",
+            "formatted_plaintext": "Although they have discovered the way, Primis will fail.",
+            "anomalies": [
+              {
+                "issue": "Website",
+                "description": "Seems to be only one website that translated this correctly: https://www.braingle.com/brainteasers/codes/trifid.php#form"
+              }
+            ],
+            "notes": [
+              "To make this cipher visible, you have to shoot the picture frame down off the wall."
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              ""
+            ],
+            "order": 3
+          },
+          {
+            "name": "Cipher #5",
+            "location": {
+              "name": "Underground",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Tupper's Self-Referential Formula",
+              "documentation_link": "https://en.wikipedia.org/wiki/Tupper%27s_self-referential_formula"
+            },
+            "texture_name": "i_mtl_p7_zm_zod_cipher_01_c",
+            "key": "{\\displaystyle {\\frac {1}{2}}<\\left\\lfloor \\mathrm {mod} \\left(\\left\\lfloor {\\frac {y}{17}}\\right\\rfloor 2^{-17\\lfloor x\\rfloor -\\mathrm {mod} \\left(\\lfloor y\\rfloor ,17\\right)},2\\right)\\right\\rfloor }",
+            "ciphertext": "K = 291919869353199157268214302106503849203665787450629129662829427704283148262 {{ NEW_LINE }} 1471169618363466752670938575756569119888397218297516810305665430403881659742 {{ NEW_LINE }} 0585732173128508165077575730746014648488174329810182733793410156344895420088 {{ NEW_LINE }} 08651100715219512168224488487383237473573052970169180110011550093863236049 {{ NEW_LINE }} 63582965227534280350245986512088570704335241559370486497763 {{ NEW_LINE }} 3288255472514250470520302222950185926284579821000071728 {{ NEW_LINE }} 07875515421985675693437646537145685382142243467838467003918957 {{ NEW_LINE }} 013411528518918295160518114334087273570016106735799139041280",
+            "is_solved": true,
+            "plaintext": "THE FORMLESS ONE, WILL BE THEIR DOWNFALL",
+            "formatted_plaintext": "The formless one will be their downfall.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "Wondering what the , or . is in the middle. Is it meant to be read backwards?"
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              ""
+            ],
+            "order": 4
+          }
+        ]
+      },
+      {
+        "map_name": "The Giant",
+        "alias": "TG",
+        "ciphers": [
+
+        ]
+      }
+    ]
+  }
+]

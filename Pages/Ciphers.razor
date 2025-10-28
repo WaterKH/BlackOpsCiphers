@@ -1,0 +1,49 @@
+﻿@page "/"
+@using BlackOpsCiphers.Models
+@inject HttpClient Http
+
+<PageTitle>Ciphers</PageTitle>
+
+<h1>Ciphers</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (mapCiphers == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Location</th>
+                <th>Is Solved</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cipher in mapCiphers.OrderBy(x => x.Order))
+            {
+                <tr>
+                    <td>@cipher.Name</td>
+                    <td>@cipher.Type.Name</td>
+                    <td>@cipher.Location.Name</td>
+                    <td>@cipher.IsSolved</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Cipher>? mapCiphers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var games = await Http.GetFromJsonAsync<List<Game>>("data/cipher-data.json");
+        var maps = games?.SelectMany(x => x.Maps)?.ToList();
+        mapCiphers = maps?.SelectMany(x => x.MapCiphers)?.ToList();
+    }
+}
