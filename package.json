@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16"
+  },
+  "name": "blackopsciphers",
+  "version": "1.0.0",
+  "description": "A site to document and share progress/steps on the Black Ops Zombies Ciphers.",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^4.1.16"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./wwwroot/css/tailwind-input.css -o ./wwwroot/css/app.min.css --minify",
+    "watch": "tailwindcss -i ./wwwroot/css/tailwind-input.css -o ./wwwroot/css/app.min.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

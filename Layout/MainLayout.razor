@@ -1,16 +1,15 @@
 ﻿@inherits LayoutComponentBase
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
+<div class="min-h-screen bg-gray-950 p-4 sm:p-8 font-sans">
+    <div class="max-w-7xl mx-auto bg-gray-900 p-6 rounded-2xl shadow-2xl shadow-red-900/50">
+        <header class="text-center mb-10">
+            <h1 class="text-5xl sm:text-6xl font-extrabold text-red-500 mb-2 tracking-wider uppercase border-b border-red-800 pb-3 font-mono">
+                AETHERIAL CIPHER LOG
+            </h1>
+            <p class="text-xl text-gray-400 italic">
+                Classified Transmissions of Group 935.
+            </p>
+        </header>
+
+        @Body
     </div>
-
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
 </div>
