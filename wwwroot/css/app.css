@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+    ::-webkit-scrollbar {
+        width: 15px;
+        height: 15px;
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 100vh;
+        background: #dee2e6;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #1e2939;
+        border-radius: 100vh;
+        border: 3px solid #f6f7ed;
+    }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #343f5d;
+        }
+
+
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
 }
@@ -51,14 +72,14 @@
 
     .loading-progress circle {
         fill: none;
-        stroke: #e0e0e0;
+        stroke: #101828;
         stroke-width: 0.6rem;
         transform-origin: 50% 50%;
         transform: rotate(-90deg);
     }
 
         .loading-progress circle:last-child {
-            stroke: #1b6ec2;
+            stroke: #c2311b;
             stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
             transition: stroke-dasharray 0.05s ease-in-out;
         }
@@ -66,6 +87,7 @@
 .loading-progress-text {
     position: absolute;
     text-align: center;
+    color: white;
     font-weight: bold;
     inset: calc(20vh + 3.25rem) 0 auto 0.2rem;
 }
