@@ -1,0 +1,16 @@
+﻿@using BlackOpsCiphers.Models
+
+@if (Game != null)
+{
+    <div>
+        @foreach (var map in Game.Maps)
+        {
+            <MapComponent Map="@map" Game="@Game" />
+        }
+    </div>
+}
+
+@code {
+    [Parameter]
+    public Game? Game { get; set; }
+}

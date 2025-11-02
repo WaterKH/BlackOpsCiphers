@@ -1,0 +1,803 @@
+[
+  {
+    "game_name": "Black Ops III",
+    "alias": "bo3",
+    "maps": [
+      {
+        "map_name": "Shadows of Evil",
+        "alias": "SoE",
+        "ciphers": [
+          {
+            "name": "Cipher #1",
+            "location": {
+              "name": "Waterfront Upstairs",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Four-square",
+              "documentation_link": "https://en.wikipedia.org/wiki/Four-square_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_zod_cipher_01_c",
+            "key": "AOGNKZBCPSEWFMUHXDIRTLVYQ {{ NEW_LINE }} HVWFCTGQMZPESYLANRBXOUIDK",
+            "ciphertext": "MGIQMROXGXRFNMMRSWRWYEINZSGXXWNZWQHWEPPQXIWBBKZYWHKXMWFYGK",
+            "is_solved": true,
+            "plaintext": "misinterestedintheseworthlessbeingsallhisworkwillbeundonex",
+            "formatted_plaintext": "M is interested in these worthless beings. All his work will be undone. X",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "To reveal this cipher, you must hold square on a brick near the beast pedestal."
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              ""
+            ],
+            "order": 0
+          },
+          {
+            "name": "Cipher #2",
+            "location": {
+              "name": "Ritual Area",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Straddling Checkerboard",
+              "documentation_link": "https://en.wikipedia.org/wiki/Straddling_checkerboard"
+            },
+            "texture_name": "i_mtl_p7_zm_zod_cipher_02_c",
+            "key": "WVHBIGQROSTJNXFKMCPDAZLUYE {{ NEW_LINE }} 3 & 7",
+            "ciphertext": "5723805747453463230713002723238753132477713034773227770747234387531323430323672574",
+            "is_solved": true,
+            "plaintext": "iamwillingtodowhatmustbedonetheplanmustnotfail",
+            "formatted_plaintext": "I am willing to do what must be done. The plan must not fail.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "To view this cipher, it is located on the underside of the ritual table."
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              ""
+            ],
+            "order": 1
+          },
+          {
+            "name": "Cipher #3",
+            "location": {
+              "name": "Junction & Canals",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Porta",
+              "documentation_link": "https://sites.google.com/site/cryptocrackprogram/user-guide/cipher-types/substitution/porta"
+            },
+            "texture_name": "i_mtl_p7_zm_zod_cipher_03_c",
+            "key": "ONLYTHECURSEDSURVIVE",
+            "ciphertext": "MNWQUTTDIBRNZYEFJZDFYAJGNUSEFVYTOENLSQOXTBAHUUPRJPNOFFJPOLVPWXBTNIRODFFEENO",
+            "is_solved": true,
+            "plaintext": "theelderswillcontinuetoseedspaceandtimeimustleadthemtotheplacetheycannotsee",
+            "formatted_plaintext": "The elders will continue to seed space and time. I must lead them to the place they cannot see.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "How do we solve this?"
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              ""
+            ],
+            "order": 2
+          },
+          {
+            "name": "Cipher #4",
+            "location": {
+              "name": "Boxing Gym Office",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Trifid",
+              "documentation_link": "https://en.wikipedia.org/wiki/Trifid_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_zod_cipher_04_c",
+            "key": "ABCDEFGHIJKLMNOPQRSTUVWXYZ.",
+            "ciphertext": "HHGGGAVVGGFMIEAPQVNBBYVTNJICRUUGPYRELEOPK.ZHDC",
+            "is_solved": true,
+            "plaintext": "althoughtheyhavediscoveredthewayprimiswillfail",
+            "formatted_plaintext": "Although they have discovered the way, Primis will fail.",
+            "anomalies": [
+              {
+                "issue": "Website",
+                "description": "Seems to be only one website that translated this correctly: https://www.braingle.com/brainteasers/codes/trifid.php#form"
+              }
+            ],
+            "notes": [
+              "To make this cipher visible, you have to shoot the picture frame down off the wall."
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              ""
+            ],
+            "order": 3
+          },
+          {
+            "name": "Cipher #5",
+            "location": {
+              "name": "Underground",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Tupper's Self-Referential Formula",
+              "documentation_link": "https://en.wikipedia.org/wiki/Tupper%27s_self-referential_formula"
+            },
+            "texture_name": "i_mtl_p7_zm_zod_cipher_01_c",
+            "key": "{\\displaystyle {\\frac {1}{2}}<\\left\\lfloor \\mathrm {mod} \\left(\\left\\lfloor {\\frac {y}{17}}\\right\\rfloor 2^{-17\\lfloor x\\rfloor -\\mathrm {mod} \\left(\\lfloor y\\rfloor ,17\\right)},2\\right)\\right\\rfloor }",
+            "ciphertext": "K = 291919869353199157268214302106503849203665787450629129662829427704283148262 {{ NEW_LINE }} 1471169618363466752670938575756569119888397218297516810305665430403881659742 {{ NEW_LINE }} 0585732173128508165077575730746014648488174329810182733793410156344895420088 {{ NEW_LINE }} 08651100715219512168224488487383237473573052970169180110011550093863236049 {{ NEW_LINE }} 63582965227534280350245986512088570704335241559370486497763 {{ NEW_LINE }} 3288255472514250470520302222950185926284579821000071728 {{ NEW_LINE }} 07875515421985675693437646537145685382142243467838467003918957 {{ NEW_LINE }} 013411528518918295160518114334087273570016106735799139041280",
+            "is_solved": true,
+            "plaintext": "THE FORMLESS ONE, WILL BE THEIR DOWNFALL",
+            "formatted_plaintext": "The formless one will be their downfall.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "Wondering what the , or . is in the middle. Is it meant to be read backwards?"
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              ""
+            ],
+            "order": 4
+          }
+        ]
+      },
+      {
+        "map_name": "The Giant",
+        "alias": "TG",
+        "ciphers": [
+          {
+            "name": "Cipher #1",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Unknown",
+              "documentation_link": ""
+            },
+            "texture_name": "i_mtl_p7_zm_der_cipher_message_01_c",
+            "key": "TheGiant",
+            "ciphertext": "kCmIgFi6GUJNgkNI1Q41fbfyLoCFTCvIqkZiI0KIAXAzP1U1uy1BE4U {{ NEW_LINE }} fPBfpKmmL0bjYnQNRBaPtKiVWzc5A4v0w3xIe8FOhAGJZ7g4in0wn {{ NEW_LINE }} dJxM0v03dc1M82at2T6935roTqyWDgtGD/hwwRF3oHqFM5Vcw1 {{ NEW_LINE }} JtINbsgWRm4o4/quEDkZ7x1B275bX3/Fo1",
+            "is_solved": false,
+            "plaintext": "",
+            "formatted_plaintext": "",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "Font used seems to be Franklin Gjothic. https://www.fonts.com/font/itc/itc-franklin-gothic/compressed-book"
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 0
+          },
+          {
+            "name": "Cipher #2",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Periodic Table",
+              "documentation_link": "https://en.wikipedia.org/wiki/Periodic_table"
+            },
+            "texture_name": "i_mtl_p7_zm_der_cipher_message_02_c",
+            "key": "",
+            "ciphertext": "49 - 90,64 - 58,116,116 - 4,116,8,74 - 90,63 - 74,79,23,99 - 53,16 - 74,2,75 - 67,102,86 - 16,92,9,26,86,16",
+            "is_solved": true,
+            "plaintext": "In - Tu,Eu - CE,Lv,Lv - BE,Lv,O,W - Th,Eu - W,Au,V,Es - I,S - W,He,Re - Ho,No,Rn - S,U,F,Fe,Rn,S",
+            "formatted_plaintext": "In the cell below the waves is where honor suffers.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 1
+          },
+          {
+            "name": "Cipher #3",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Code 128 (Barcode)",
+              "documentation_link": "https://en.wikipedia.org/wiki/Code_128"
+            },
+            "texture_name": "i_mtl_p7_zm_der_cipher_message_03_c",
+            "key": "",
+            "ciphertext": "",
+            "is_solved": true,
+            "plaintext": "The mountain must be searched for the frozen one",
+            "formatted_plaintext": "The mountain must be searched for the frozen one.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 2
+          },
+          {
+            "name": "Cipher #4",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Enigma M3",
+              "documentation_link": "https://en.wikipedia.org/wiki/Lorenz_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_der_cipher_message_04_c",
+            "key": "Reflector: UKW B; Key settings: WAD; Ring settings: AAD; Rotors: 123; Plug board settings: PO ML IU KJ NH YT GB VF RE DC",
+            "ciphertext": "VXFPNFSVOHBMJBOHYDPLBBR {{ NEW_LINE }} NDJWOWIWUUJJJHVYKAGZAIY",
+            "is_solved": true,
+            "plaintext": "acity offir esurr ounds thewa rrior thela stofh iskin d",
+            "formatted_plaintext": "A city of fire surrounds the warrior. The last of his kind.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 3
+          },
+          {
+            "name": "Cipher #5",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Simplified Lorenz",
+              "documentation_link": "https://en.wikipedia.org/wiki/Lorenz_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_der_cipher_message_05_c",
+            "key": "K-wheel start position = 9; S-wheel start position = 4",
+            "ciphertext": "NMFU3DNILVAXTPPH9AYHRXUM3 {{ NEW_LINE }} PDBVMHN/CANVGPYS+3HGQKH",
+            "is_solved": true,
+            "plaintext": "WHENFINISHEDWEWILLRETURNTOTHEHOUSEANDTHEINFINITE",
+            "formatted_plaintext": "When finished, we will return to the house and the infinite.",
+            "anomalies": [
+              {
+                "issue": "Specific Website",
+                "description": "https://www.cimt.org.uk/resources/codes/lorenz/index.htm"
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 4
+          }
+        ]
+      },
+      {
+        "map_name": "Der Eisendrache",
+        "alias": "DE",
+        "ciphers": [
+          {
+            "name": "Cipher Flags",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Flag Semaphore",
+              "documentation_link": "https://en.wikipedia.org/wiki/Flag_semaphore"
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_cypher2_flags_c",
+            "key": "",
+            "ciphertext": "* Refer to Image *",
+            "is_solved": true,
+            "plaintext": "AFTER --- FACILITY DIVISION 9 IS MOVING WITH PHASE 2 THE ISLAND FACILITY IS NOW OPERATIONAL AND INITIAL TESTING UNDERWAY",
+            "formatted_plaintext": "After the success at the Rising Sun facility, Division 9 is moving with phase 2. The island facility is now operational and initial testing underway.",
+            "anomalies": [
+              {
+                "issue": "Missing Ciphertext",
+                "description": "The material image seems to be missing a portion of the semaphore ciphertext."
+              }
+            ],
+            "notes": [
+              "Denoted as cypher2 flags, along the base64 note one."
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 0
+          },
+          {
+            "name": "Cipher Note #1",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Base64",
+              "documentation_link": "https://en.wikipedia.org/wiki/Base64"
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_cypher2_note_01_c",
+            "key": "",
+            "ciphertext": "V2UgaGF2ZSBkaXNjb3ZlcmVkIHRoYXQgdGhlcmUgYXJlIGJlaW5ncyB0aGF0IGNhbiB0cmF2ZWwgYmV0d2VlbiBkaW1lbnNpb25zIHdpdGhvdXQgdGhlIGFpZCBvZiB0aGUgdGVsZXBvcnRlci4K",
+            "is_solved": true,
+            "plaintext": "We have discovered that there are beings that can travel between dimensions without the aid of the teleporter.",
+            "formatted_plaintext": "We have discovered that there are beings that can travel between dimensions without the aid of the teleporter.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "Denoted as cypher2 note, along the flag semaphore one."
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 1
+          },
+          {
+            "name": "Cipher Note #2",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Type B Cipher Machine (Purple)",
+              "documentation_link": "https://en.wikipedia.org/wiki/Type_B_Cipher_Machine#Purple"
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_cypher2_note_02_c",
+            "key": "",
+            "ciphertext": "FZIL COVNITF KUN ER GYYWKJOLC FEEKUBY XIRXAANW PA VUVYSOV QY DEY FO AZ IT IUIB SYNWM DOQ MIMR JOAB EQ",
+            "is_solved": true,
+            "plaintext": "AFTER SENDING HIM ON COUNTLESS SUICIDE MISSIONS HE REFUSES TO DIE HE IS IN YOUR HANDS NOW DONT FAIL US",
+            "formatted_plaintext": "After sending him on countless suicide missions, he refuses to die. He is in your hands now. Don't fail us.'",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 2
+          },
+          {
+            "name": "Cipher Mathematics",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Formulas",
+              "documentation_link": ""
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_mathamatics",
+            "key": "",
+            "ciphertext": "",
+            "is_solved": true,
+            "plaintext": "Division 9 has completed the ressurection of the ancient beasts for your eastern front. We expect Group 935 to reciprocate the favor.",
+            "formatted_plaintext": "Division 9 has completed the ressurection of the ancient beasts for your eastern front. We expect Group 935 to reciprocate the favor.",
+            "anomalies": [
+              {
+                "issue": "Inaccessible Website",
+                "description": "The website that was originally used is no longer available, and I am unable to find it (like I previously did) on Internet Archive."
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 3
+          },
+          {
+            "name": "Cipher Monitor",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Bifid",
+              "documentation_link": "https://en.wikipedia.org/wiki/Bifid_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_comm_monitor_set_screen_cypher_02_c",
+            "key": "Maxis",
+            "ciphertext": "BVEIYO UCAYIF UNEFGV TTQSCG IMBAFT OHMNCF VCOIVX FNGOVF RSBEYM UHEGNC IJZQXA BHTFYK HRAIRP JFHQTO NBEHRM YQAUFN EAR",
+            "is_solved": true,
+            "plaintext": "FATHER INTROD UCEDME TOANEV VFRIEN DTHATJ USTARR IVEDHI SNAMEI SEDVVA RDHEIS NICEBU THEDOE SNTLIK ETOSHA RETHET OYS",
+            "formatted_plaintext": "Father introduced me to a new friend that just arrived. His name is Edward. He is nice, but he doesn't like to share the toys.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "W is replaced."
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 4
+          },
+          {
+            "name": "Cipher #1",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Playfair",
+              "documentation_link": "https://en.wikipedia.org/wiki/Playfair_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_cypher2_01_c",
+            "key": "TESTSUBJECT",
+            "ciphertext": "EG BH IA SR ES UE UB TF CH SR EG TN SV HA CO AK UC TB UJ TY HO MJ NC DS SM OU XK IC EC AK EA NX TV UC EG UH UV SM JV SC ES EG SC TR RU IC ER YX SU SV UH XY EC JX CV NX YX VT DF RU NA DO EB VT EG BC PS XT BT CT JE AO CU ME LA HS AK MV UN MX BJ MX UR AQ TY",
+            "is_solved": true,
+            "plaintext": "THE LAST X TEST SUBJECT X THE MEXICAN DIED BUT DURING THE AUTOPSY I HAVE DISCOVERED THE KEY TO CREATE THE ARMY THAT VXVE SEXEK VXVE ARE NOVXV READY TO CAPTURE THE FOUR SUBJECTS IDENTIFIED IN REPORT FORTY FOUR",
+            "formatted_plaintext": "The last test subject, the Mexican, died, but during the autopsy, I have discovered the keey to create the army that we seek. We are now ready to capture the four subjects identified in report forty four.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "W is replaced."
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 5
+          },
+          {
+            "name": "Cipher #2",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Trithemius",
+              "documentation_link": "https://en.wikipedia.org/wiki/Tabula_recta#Trithemius_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_cypher2_02_c",
+            "key": "198346572",
+            "ciphertext": "AGVHV YNLOA OLFOO IJCW, MBZUP RNOEW SSSZO MVYFZ QHWUZ JECBD QQGOO GGSBT HVMMW QNBHU USEFO DBQHC LPHWX LVZJC QMEOH JYWXS ZYLSK DTGH. XMKFI AOETR TXHJL ;MBZU XPDTI GOEXZ …CQBS ZZFCU VISVN PNBBV OSNGW FTKAC BLZTS GEFEL BVQKR DDPWU HWKHU B.",
+            "is_solved": true,
+            "plaintext": "afterthegreatbattletheystooduponthemoundtheirlightshonedownandcleansedallthesicknessforasfarastheeyecouldseetheyarethefirst;theyarethelast…visionsoffracturedworldsandstrangeroomshauntedourdreams",
+            "formatted_plaintext": "After the great battle they stood upon the mound their light shone down and cleansed all the sickness for as far as the eye could see. They are the first; they are the last… visions of fractured worlds and strange rooms haunted our dreams. The crate containing the artifact had been sealed with some ancient magic. When I told him I must have the artifact and moved toward the crate, he attacked me. I acted in self-defense stabbing him in the chest.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 6
+          },
+          {
+            "name": "Cipher #3",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Übchi",
+              "documentation_link": "https://www.dcode.fr/ubchi-cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_cypher2_note_03_c",
+            "key": "TheCastle",
+            "ciphertext": "o yo l rrgnrdcyhea thsyar   a p w sryy c auM  ag ,naaca ldwyInmrphoto… Ilulf yoirntin teop noekuaoku Zyiooy.ee  ulZ",
+            "is_solved": true,
+            "plaintext": "I cannot appear directly to you, I can only help you on your way…you guys are really making hard work of this. M",
+            "formatted_plaintext": "I cannot appear directly to you, I can only help you on your way…you guys are really making hard work of this. M",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 7
+          },
+          {
+            "name": "Cipher #4",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Navajo code",
+              "documentation_link": "https://www.ancestrycdn.com/aa-k12/2064/assets/Navajo-Code-Talkers-dictionary.pdf"
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_cypher2_04_c",
+            "key": "",
+            "ciphertext": "A-CHI BE-TKAH JO BE-TKAH AH-LOSZ AH-JAH MOASI DZEH YEH-HES A-KEH-DI-GLINI DZEH LHA-CHA-EH BE-TKAH WOL-LA-CHEE TSAH NE-AHS-JAH THAN-ZIE AH-JAH GAH BE-TKAH A-WOH NE-AHS-JAH TSAH-AS-ZIH BE-TKAH CLA-GI-AIH TLO-CHIN KLESH THAN-ZIE DZEH LHA-CHA-EH BE-TKAH BE-GHA BE-TKAH TSIN-TLITI",
+            "is_solved": true,
+            "plaintext": "I HAVE RECEIVED ANOTER TOY POSTED BY M",
+            "formatted_plaintext": "I have received another toy. Posted by M.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 8
+          },
+          {
+            "name": "Cipher #5",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Homophonic Substitution",
+              "documentation_link": "https://en.wikipedia.org/wiki/Substitution_cipher#Homophonic"
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_cypher2_05_c",
+            "key": "A: 56,35,14,93,72,51;B: 30,09;C: 88,67,46;D: 25,04,83,62,41;E: 20,99,78,57,36,15,94,73,52,31,10,89,68,47,26,05;F: 84,63;G: 42,21,00;H: 79,58,37,16;I: 95,74,53,32,11,90,69;J: 48;K: 27;L: 06,85,64;M: 43,22,01,80;N: 59,38,17,96,75,54,33,12,91;O: 70,49,28;P: 07;Q: 86;R: 65,44,23,02,81,60,39;S: 18,97,76,55,34,13,92;T: 71,50,29,08,87,66;U: 45,24,03,82;V: 61;W: 40;X: 19 ; Y: 98; Z: 77",
+            "ciphertext": "01 95 13 92 95 70 91 85 49 21 10 54 71 23 98 63 70 39 08 98 84 90 61 10 11 56 22 28 61 89 23 66 16 73 76 32 08 73 85 70 70 27 90 75 42 25 70 40 17 71 37 81 28 45 42 16 87 58 26 28 07 68 38 62 70 28 02 74 46 35 59 13 52 73 56 40 57 69 65 62 41 53 13 50 70 23 66 11 49 12 30 57 06 49 40 01 57 85 69 27 73 14 64 49 88 14 64 69 77 94 25 56 03 81 70 81 51 09 70 81 10 51 06 69 13 90 40 49 24 64 41 33 49 81 80 72 85 85 98 88 56 96 88 36 06 71 16 52 70 07 15 39 51 08 74 49 91 09 82 71 40 99 04 49 54 50 79 35 61 78 08 90 80 52 06 03 46 27 74 06 98 95 79 56 61 47 29 56 27 78 75 05 19 07 99 23 90 01 68 59 29 51 64 40 89 93 07 28 54 44 98 61 10 81 18 69 49 17 66 58 02 89 73 08 58 51 08 91 70 49 38 94 37 72 13 55 05 15 91 09 05 63 70 39 57 84 02 28 01 43 98 07 65 20 61 32 70 82 18 43 53 76 18 32 49 75 96 57 61 57 23 76 51 98 17 10 61 10 81 07 05 87 78 39",
+            "is_solved": true,
+            "plaintext": "MISSIONLOGENTRYFORTYFIVEIAMOVERTHESITELOOKINGDOWNTHROUGHTHEOPENDOORICANSEEAWEIRDDISTORTIONBELOWMELIKEALOCALIZEDAURORABOREALISIWOULDNORMALLYCANCELTHEOPERATIONBUTWEDONTHAVETIMELUCKILYIHAVETAKENEXPERIMENTALWEAPONRYVERSIONTHREETHATNOONEHASSEENBEFOREFROMMYPREVIOUSMISSIONNEVERSAYNEVERPETER",
+            "formatted_plaintext": "Mission Log Entry Forty Five: I am over the site looking down through the open door. I can see a weird distortion below me like a localized aurora borealis. I would normally cancel the operation, but we don't have time. Luckily, I have taken experimental weaponry version three that no one has seen before from my previous mission. Never say never, Peter.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 9
+          },
+          {
+            "name": "Cipher #5",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "AMSCO",
+              "documentation_link": "https://medium.com/asecuritysite-when-bob-met-alice/the-amso-cipher-7a12c1976866"
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_cypher2_05_c",
+            "key": "198346572",
+            "ciphertext": "IMEIV TGOOC RAPOI WILND TATHB ESGII EAVRA DELBC HRTLA CSITA NIEBL GGAAO SRGTD THADH HMOCK ESTAE TOWHS ATST. VERAN YERLW ANTIE ANHUS FOWHI AEGH. HEAEA IOBRB UDWAD ,WIIN YTAFA LCENT ACAEA CFEIE POTIE INKWH HBATV IIMEH NITDW NTOVA NTTAD SENRS TRDHR UCT,T SACAN HG.TI ACEIE IHATR DTTEN MIDOE FWAGI NEERB INNSH TECNH AITML ETDHE CINST HETHR TENGI TEITE ,DLTE LACOR NSE.W MTITE ,.-DN STERW E.HIN HARRR NGLET TAYEE AEOMC MIRED TMEFB IE",
+            "is_solved": true,
+            "plaintext": "IMEETTHEREPORTERWHOWASTODELIVERTHEARTIFACT.HESAIDHEWASGOINGTOBRINGITONHISTRUCKINACRATE.BUTWHENIARRIVED,THEREPORTERWASBABBLING,ANDACTINGWILDLY,WAVINGALETTERINHISHANDTELLINGMETOSTAYAWAY.THECRATECONTAININGTHEARTIFACTHADBEENSEALEDWITHSOMEANCIENTMAGIC.WHENITOLDHIMIMUSTHAVETHEARTIFACTANDMOVEDTOWARDTHECRATE,HEATTACKEDME.IACTEDINSELF-DEFENSESTABBINGHIMINTHECHEST.",
+            "formatted_plaintext": "I meet the reporter who was to deliver the artifact. He said he was going to bring it on his truck in a crate. But when I arrived, the reporter was babbling, and acting wildly, waving a letter in his hand telling me to stay away. The crate containing the artifact had been sealed with some ancient magic. When I told him I must have the artifact and moved toward the crate, he attacked me. I acted in self-defense stabbing him in the chest.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 10
+          }
+        ]
+      }
+    ]
+  }
+]

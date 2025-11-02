@@ -1,0 +1,23 @@
+﻿@using BlackOpsCiphers.Models
+
+@if (Map != null)
+{
+    <h2 class="text-5xl sm:text-6xl font-extrabold text-amber-500 mb-2 tracking-wider uppercase border-b border-amber-800 pb-3 font-mono">
+        @Map.MapName
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-5">
+        @foreach (var cipher in Map.MapCiphers)
+        {
+            <CipherComponent Cipher="@cipher" Map="@Map" Game="@Game" />
+        }
+    </div>
+}
+
+@code {
+    [Parameter]
+    public Map? Map { get; set; }
+
+    [Parameter]
+    public Game Game { get; set; } = new();
+}

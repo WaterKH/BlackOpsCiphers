@@ -1,0 +1,54 @@
+﻿@page "/"
+@using BlackOpsCiphers.Components
+@using BlackOpsCiphers.Models
+@inject HttpClient Http
+
+<PageTitle>Ciphers</PageTitle>
+
+@if (games == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div className="flex flex-col md:flex-row gap-4 mb-8">
+        <div className="flex-1 relative">
+            <select value={selectedGame}
+                    onChange={(e) =>
+                setSelectedGame(e.target.value)}
+                class="w-full bg-gray-800 text-gray-200 border border-gray-700 p-3 rounded-xl appearance-none focus:outline-none focus:ring-2 focus:ring-amber-400/50 hover:border-amber-400 transition-colors">
+                <option value="All">Filter by All Maps</option>
+                {uniqueMaps.map(map => (
+                <option key={map} value={map}>{map}</option>
+                ))}
+            </select>
+            @*<ChevronDown size={18} className="absolute right-3 top-1/2 transform -translate-y-1/2 text-amber-400 pointer-events-none" />*@
+        </div>
+
+        <div className="flex-1 relative">
+            <select value={statusFilter}
+                    onChange={(e) =>
+                setStatusFilter(e.target.value)}
+                class="w-full bg-gray-800 text-gray-200 border border-gray-700 p-3 rounded-xl appearance-none focus:outline-none focus:ring-2 focus:ring-amber-400/50 hover:border-amber-400 transition-colors">
+                <option value="All">Filter by All Statuses</option>
+                <option value="Decrypted">Decrypted</option>
+                <option value="Pending">Pending</option>
+            </select>
+            @*<ChevronDown size={18} className="absolute right-3 top-1/2 transform -translate-y-1/2 text-amber-400 pointer-events-none" />*@
+        </div>
+    </div>
+
+    @foreach (var game in games)
+    {
+        <GameComponent Game="@game" />
+    }
+}
+
+@code {
+    private List<Game>? games;
+
+    protected override async Task OnInitializedAsync()
+    {
+        games = await Http.GetFromJsonAsync<List<Game>>("data/cipher-data.json");
+    }
+}

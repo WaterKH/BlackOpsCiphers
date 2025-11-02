@@ -1,0 +1,99 @@
+﻿@using BlackOpsCiphers.Models
+
+<div class="fixed inset-0 z-50 bg-gray-950 bg-opacity-95 flex justify-center items-center p-4" @onclick=OnClose>
+    <div 
+        class="bg-gray-900 w-full max-w-4xl max-h-[90vh] overflow-y-auto p-8 rounded-xl shadow-2xl @GetShadowColor() border @GetBorderColor() transform transition-all duration-300 scale-100" 
+         @onclick:stopPropagation="true"
+    >
+        <header class="flex justify-between items-start border-b @GetFullShadowColor() pb-4 mb-4">
+            <div>
+                <h2 class="text-4xl font-extrabold font-mono tracking-tight text-white">
+                    @Cipher.Name
+                </h2>
+                <p class="text-xl font-semibold @GetStatusColor() mb-0">
+                    @(Cipher.IsSolved ? "Status: SOLVED" : "Status: UNSOLVED")
+                </p>
+            </div>
+            <button 
+                @onclick=OnClose
+                class="p-2 rounded-full text-gray-400 hover:text-red-500 hover:bg-gray-800 transition-colors"
+                aria-label="Close"
+            >
+                <XCircle size={24} />
+            </button>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-gray-300">
+            <div class="md:col-span-1 space-y-4">
+                <h3 class="text-lg font-bold text-amber-300 border-b border-gray-700 pb-1 flex items-center"><LocateFixed size={18} class="mr-2" /> Details</h3>
+                <p><strong class="text-red-500">Game:</strong> <span class='font-mono'>@Game.GameName</span></p>
+                <p><strong class="text-red-500">Map:</strong> <span class='font-mono'>@Map.MapName</span></p>
+                <p><strong class="text-red-500">Location:</strong> @Cipher.Location.Name</p>
+                <p><strong class="text-red-500">Cipher Type:</strong> @Cipher.Type.Name</p>
+            </div>
+
+            <div class="md:col-span-2 space-y-4">
+                <h3 class="text-lg font-bold text-amber-300 border-b border-gray-700 pb-1 flex items-center"><CheckCircle size={18} class="mr-2" /> Decrypted Message</h3>
+                        
+                <div class="bg-gray-800 p-4 rounded-lg border border-gray-700 shadow-inner">
+                    <p class="text-lg font-mono tracking-tight whitespace-pre-wrap text-emerald-400 mb-0">
+                        @Cipher.FormattedPlaintext.Replace(" {{ NEW_LINE }} ", Environment.NewLine)
+                    </p>
+                </div>
+
+                @if (!string.IsNullOrEmpty(Cipher.Key))
+                {
+                    <h3 class="text-lg font-bold text-amber-300 border-b border-gray-700 pb-1">Key</h3>
+                    <div class="bg-gray-800 p-4 rounded-lg border border-gray-700 shadow-inner">
+                        <p class="text-sm break-words font-mono text-gray-200 whitespace-pre-wrap mb-0">
+                            @Cipher.Key.Replace(" {{ NEW_LINE }} ", Environment.NewLine)
+                        </p>
+                    </div>
+                }
+                        
+                <h3 class="text-lg font-bold text-amber-300 border-b border-gray-700 pb-1">Ciphertext</h3>
+                <div class="bg-gray-800 p-4 rounded-lg border border-gray-700 shadow-inner">
+                    <p class="text-sm break-all font-mono text-gray-200 mb-0">
+                        @Cipher.Ciphertext.Replace(" {{ NEW_LINE }} ", Environment.NewLine)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [CascadingParameter] BlazoredModalInstance BlazoredModal { get; set; } = default!;
+
+    [Parameter]
+    public Game Game { get; set; } = new();
+    [Parameter]
+    public Map Map { get; set; } = new();
+    [Parameter]
+    public Cipher Cipher { get; set; } = new();
+
+    public async Task OnClose()
+    {
+        await BlazoredModal.CloseAsync(ModalResult.Ok());
+    }
+
+    public string GetFullShadowColor()
+    {
+        return Cipher.IsSolved ? "shadow-emerald-900" : "shadow-red-900";
+    }
+
+    public string GetShadowColor()
+    {
+        return Cipher.IsSolved ? "shadow-emerald-900/70" : "shadow-red-900/70";
+    }
+
+    public string GetBorderColor()
+    {
+        return Cipher.IsSolved ? "border-emerald-700/50" : "border-red-700/50";
+    }
+
+    public string GetStatusColor()
+    {
+        return Cipher.IsSolved ? "text-emerald-400" : "text-red-400";
+    }
+}
