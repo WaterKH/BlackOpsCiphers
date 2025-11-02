@@ -488,7 +488,7 @@
               }
             ],
             "notes": [
-              
+
             ],
             "relationships": [
               {
@@ -795,6 +795,455 @@
               "1. "
             ],
             "order": 10
+          }
+        ]
+      },
+      {
+        "map_name": "Zetsubou No Shima",
+        "alias": "ZnS",
+        "ciphers": [
+          {
+            "name": "Cipher #1",
+            "location": {
+              "name": "Bunker Monitor",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "T9",
+              "documentation_link": "https://en.wikipedia.org/wiki/T9_(predictive_text)"
+            },
+            "texture_name": "i_mtl_p7_zm_isl_cypher_01_c",
+            "key": "+81",
+            "ciphertext": "6384336878378-7825328744445444833-46737678-44-6636384327684377-4273433233673-83268537322446-46843228853-843684374778455-285274346843-2489",
+            "is_solved": true,
+            "plaintext": "of the four test subjects highlighted in report 44 one of the brothers has died before we could reach him in the battle the other is still at large in the city",
+            "formatted_plaintext": "Of the four test subjects highlighted in Report 44, one of the brothers has died before we could reach him in the battle. The other is still at large in the city.",
+            "anomalies": [
+
+            ],
+            "notes": [
+              "+81 refers to the Japanese area code."
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 0
+          },
+          {
+            "name": "Cipher #2",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Genetic Code (ASCII Binary Encoding)",
+              "documentation_link": "https://en.wikipedia.org/wiki/Genetic_code;https://en.wikipedia.org/wiki/ASCII"
+            },
+            "texture_name": "i_mtl_p7_zm_isl_cypher_02_c",
+            "key": "",
+            "ciphertext": "aaGcaacaaTaacGaGcTGcGTTacGTTcTaaaTTTacTacTGTTacTcaTaaaaccaGGaTaGaaGGaGTcaaTGGcTcaaGccacacGaaTaGccGGGcGcTaTTGaaTTaGGGaGccccGaaaaaaGGacGGcaGGaTccTcGTaGGGccGTaTaaGcTTTacGGaTTcTaacaGGaaTaTcTGaaGaccaTccccacGGccaaGccTacacacGGGaTTccGTccTcGaTTGccGccGTGTaaGacGacccccGGaGTcaaTGaTGTTaTGaTTTccGGaaGGTaaGccaaacGGGcGGccGGcTcacaGTcGccGaGTcaGTccTTGcTaccaTcGTGcccGacaaacTaTaTTGcTGacGaTacTaaacaaGTGaGGTcGTcaTaTaTTTccGccTGccTaGcaGacaaaaGGacaaGcTGTcGGTaTTaaccTaTGaTcaTaTTTcGcacTGaGccGaGGcTGGaaTTcaTTTccGaaacacTTTaTaacTTaGacaaGGccGaGaaGcaaaaaTGTaTaccTTccTcTaGGGcaGTcTTGaTaccaGcccaacGGTacGTaTGTcGcGcTTcccGcaGTcGcGccGTacGcGaGGcacTGaTTTcTccaTTGacGTaaTcccccaTGaaaaTcGTGccGccTGTaaGacTGaGacTcTGGcTTccTGcacaGcTGcGTacaaTaacccaTTcaGGaaGTTaaTacGTcGGTTcTGcGGaGacTacacacTTGcGcaaTTcTccccGTccTaGcaTcaaaacGGcacGTaGTccaaGcGGTccTGaGTTaTcccGTcGTaaaTGcaGaGaaGacccacGTaacGaaGTGaGcGaTTTcTaacaTaccaacTTGcGcacTTaGccaaTGacTaTaTGTGccGaaGaacaaaTGcTTGcaGTccTcTcTGTaGGaaTGaaTaTcGGGccTaacGccaaaaTTGccTGcGGaGccccGGaGGGGcGTGcGTTaGGccTaTaGGccTccacTaTTTcacTacccccGcGaGcccTTaGcacaGGaGGTGcGTTcaGGaGTaaGcTcaTcaaaccTGcaTTTcTGGacTaaGGcTTGGcGTGcTaTcGTTaccccaGaaaacacGGTcaTcaTTccTGccGTcTcTccGcaacacGGGcaaaaGTcGcaGcGGccTGTcGGGccTTaaGacaaacGGacGcccGTaGccTcTGccGcaaTTcGGTaaTGGaGacacGacccacTTaaGaTaGTGaGTaaTGcaGcGcTTaTTTcaaTaaaaccTTcacTaaGGaTTGTaTGGcGcaaGGaGacacGTccGaGaGGTcaTcaaGcaaaccTGGcGccaTGaTTGGaaGcccccaTTTaaGaaGTacacTaTGccGaaaGTaGcaGaTGaTTTGaaTcaacaaGTTcTccaTTaTcccaGGccTcGaaGaccaccTGaccaTaTTGccTTcGTGGccTcTGcTTaccTTTaTaGaGTcTGaTaaGccccccGGGcTcaaGGaGGTGcaGcccaacTTaTGacaTTccGcTaGTTaTcaacTacacacGGGcGaGcTTTacGTacGccccaaTTcGcTTcGTaGTGccGGcGGTGaTGTcGTTacGaaccaaTGTaGcccTGcGacaaTTacTcTaTGGTccGaaTacaccaTGTaTGGcTGaaGaTcGTGccGacGGccGaTacGaccaacGTcGGTaaTGcGTGGcGGTaGccaaTaccacaGGaaaGTaGTcTTGTcGTcGTaGcGGcTaaGcTGaTGTacGGacTGGacTcGGGaccTaacaaaTcaTacGccTccaccaTTcaaaTaTGaTTcGcaGcaaaaaTTaaGGTcGGaaGaGcGTGaTacaGTGcTccaTGcTccGaGTaGGGacTTcaTGTacGacccacTTGcaTGcGGcGccGaGTcacGTaTTaGcGTacGccaaaaTGaGTTTaTTcaGTcacTaaaaaaTTTcTacaTGcGaacaGTaTTGGaTTTacGGaTTaaTcTcaGaccaccTTacacTcGGGccGaaGGTcaTaaTTcGGGTaGTcaGTGcGTcaacGcGTcGGTaaGTGcTccacTcacccaGGTccTGaTGaacTGcGTaTaaGcTTccTcTcTTaGGTcaTTGaGaacGTcTcaTcTTTacGTaTGTcTacaGGGaaGTcaTaGTTaacTaacccaGaGaGcccGGcTacaaGGccTaGcGTGGcaGccGcaccacGTaGccacGGcacaGcGGGcTGacTGcaTaTccTaccaacTTacTTTaGTaGacTcTGTcTGacGTaaTaTaTTcTTGaaaGcaaacaTGGcGaaaGTcTcaccTTccGaTacTacccccTGaacaGcGTTaaTGcGGGGaaTaTTcGGcacTTTcTcTaGGcTGaTaaGcccaaaTTGcTccaTTaTacacTGacGcTccTacacacTTcGGTccGGaTcaTaGTacaGGaTGcGcTGcTGcTTGccGTccccGcGGaGGaTcGGacGcGcaTacaaccGcTcTGcaTGaaGcGaGTGaaGccTTTacGaaTGGcGcTcGTaaaTGcGGcGcTGcGTGcGccacTccccaaGaacaaGaGTTaaGTaGGTTcaTcTTaGTaccGGGcGcGaTGaTTaGaaGaTTTaccGccccaaGacGacGaaGaacaccTTaGTcaaTTaGGTTaGGcaacGaTGTcTcccGGcGccccGTaaTcGaaTcaacacGGcTaaTcGTTaTacccTcTTGaccTcaccccTcTcGTGaGGcaGaGacTccccaaTTcccaTaTGGacTaaTTaaGaTacGaacacaGGaaccTaTTTaaGTacGcaccccTTccGcTaGTGcGTacGGaaTaGcTGTcaGcaGGGGccGcaGacacccTGacaTccTGaGcaGcGGGaGcaaaGaaaaaaGTaaacGaTTTccTGacGccccccTTcGaaTcTGaTGaGaTGGcacacGGaTTGTaTGTcaTcaTGTaGccaGTaaaaGaGTaGGTaaGTTcGccaaTcacccaGTGaTacaGGcTGTGcaTcccaccGTTaTcccGGaGacccGGcaTaGacGacaaccTGaccTTaTGaGGTTcGTcGTcTaTGGaaaccGTcGGcaaGTacGcTcGGGcGaccTTcTccGaGTcTGTTcGGaGGTaccTcaccccTGcTTGTcGGcaGTaaaTccacacGTTaaaccGGGcaGcaTTaTTTGcTTaTaTaaGTaaTcTcGGccaTGcGTTcTaacaGcccaccTTcacaTcGTTccTTaaTaccacaTGGcTcaaGTaGccaaTGaaGaGaTTGTaaGaaTaaccccGTaaaaTcTTTcaTacTTacGcGccTcTGGa",
+            "is_solved": true,
+            "plaintext": " Entry 56: Just finished a very long vhift. We were awaiting the test subjects arrival from the castle but they never showed. Those group 935 pigs didnt even bother to radio the asylum to let us know they were not coming. I am getting sick of those arrogant scientists. They have given the asylum the nickname Verruckt Asylum. I loathe it. We are as every bit as important to the completion of project as they are.",
+            "formatted_plaintext": "Entry 56: Just finished a very long vhift. We were awaiting the test subjects arrival from the castle but they never showed. Those group 935 pigs didnt even bother to radio the asylum to let us know they were not coming. I am getting sick of those arrogant scientists. They have given the asylum the nickname Verruckt Asylum. I loathe it. We are as every bit as important to the completion of project as they are.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 1
+          },
+          {
+            "name": "Cipher Note #2",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Cipher #2",
+              "documentation_link": "https://en.wikipedia.org/wiki/Type_B_Cipher_Machine#Purple"
+            },
+            "texture_name": "i_mtl_p7_zm_isl_cypher_02_c",
+            "key": "",
+            "ciphertext": "FZIL COVNITF KUN ER GYYWKJOLC FEEKUBY XIRXAANW PA VUVYSOV QY DEY FO AZ IT IUIB SYNWM DOQ MIMR JOAB EQ",
+            "is_solved": true,
+            "plaintext": "AFTER SENDING HIM ON COUNTLESS SUICIDE MISSIONS HE REFUSES TO DIE HE IS IN YOUR HANDS NOW DONT FAIL US",
+            "formatted_plaintext": "After sending him on countless suicide missions, he refuses to die. He is in your hands now. Don't fail us.'",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 2
+          },
+          {
+            "name": "Cipher Mathematics",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Formulas",
+              "documentation_link": ""
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_mathamatics",
+            "key": "",
+            "ciphertext": "",
+            "is_solved": true,
+            "plaintext": "Division 9 has completed the ressurection of the ancient beasts for your eastern front. We expect Group 935 to reciprocate the favor.",
+            "formatted_plaintext": "Division 9 has completed the ressurection of the ancient beasts for your eastern front. We expect Group 935 to reciprocate the favor.",
+            "anomalies": [
+              {
+                "issue": "Inaccessible Website",
+                "description": "The website that was originally used is no longer available, and I am unable to find it (like I previously did) on Internet Archive."
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 3
+          },
+          {
+            "name": "Cipher #5",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Keyed Caesar Cipher",
+              "documentation_link": "https://cipher.certitudes.org/caesar-keyed"
+            },
+            "texture_name": "",
+            "key": "15, AUROBELISCDFGHJKMNPQTVWXYZ",
+            "ciphertext": "X iwcs pofr swq bofql tol swq rxvws. Fq ucis noriqldq swq vkioaxrq, io X ku soap, mqnkciq swq Qubqlol xi xr pocms ot swq ciqtcarqii ot ocl lqiqklnw wqlq ks swq Lxixrv Icr tknxaxsh, krp swks lqicbbahxrv swq tknxaxsh fxaa rof onncl qdqlh oswql uorsw lkswql swkr ocl cickaah inwqpcaqp fqqzah plobi. Wobqtcaah, swq rqf uqsqol ixsq blopcnqi wxvwql vlkpq ikubaqi, orqi fq nkr knsckaah ciq. Fkxs xi swks k bakrq X wqkl. Swq lqicbbah xi ros inwqpcaqp tol kroswql fqqz. X iqq k mlxvws axvws xr swq izh....",
+            "is_solved": true,
+            "plaintext": "I shut down the power for the night. We must conserve the gasoline, so I am told, because the Emperor is in doubt of the usefulness of our research here at the Rising Sun facility, and that resupplying the facility will now occur every other month rather than our usually scheduled weekly drops. Hopefully, the new meteor site produces higher grade samples, ones we can actually use. Wait is that a plane I hear. The resupply is not scheduled for another week. I see a bright light in the sky....",
+            "formatted_plaintext": "I shut down the power for the night. We must conserve the gasoline, so I am told, because the Emperor is in doubt of the usefulness of our research here at the Rising Sun facility, and that resupplying the facility will now occur every other month rather than our usually scheduled weekly drops. Hopefully, the new meteor site produces higher grade samples, ones we can actually use. Wait is that a plane I hear. The resupply is not scheduled for another week. I see a bright light in the sky....",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 4
+          },
+          {
+            "name": "Cipher #6",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Skip",
+              "documentation_link": "https://cipher.certitudes.org/skip"
+            },
+            "texture_name": "i_mtl_p7_zm_isl_cypher_06_c",
+            "key": "Bypass: 5; Skip: 25",
+            "ciphertext": "1u oeRh ls ndpisusu eaiie5lansiano h .rc mtlsnntmd dnsecpootae o apaauldhe a y  hpwdhvfIpon nrry  narc itteheaef efdbd e emsbeopseonedt ear  e l amyio lo lfir  ncm sittespo ounlibeenemnot apmwhvoptbntoanopng.yetsamapeaemeira tptto    wi locretleaoilt s,hrmo m cosueen  trne hme  tunIimefon-c uahisfjea tdes  ned  ttidssin  u iihartaadm tcsisii nghtmunfens  m,oero memnwg arpnt  g um  rvanoe.ege fvaskatfetnoasiencf  n lirev.niharodlluense cAstlso e onebo eesds -r1otih. mflIwe rujrcod wdn",
+            "is_solved": true,
+            "plaintext": "Richtofen must understand that using these teleporters to jump between dimensions is both dangerous and imprecise. At any point, the fabric of space-time could collapse if the proper amounts of 115 are not maintained. I am also concerned about the unknown effects of trans-dimensional jumps. I have noticed even with my brief travels that new memories and emotions have flooded my mind, suddenly appearing from nowhere.  I am also sure something is happening on a molecular level as well.",
+            "formatted_plaintext": "Richtofen must understand that using these teleporters to jump between dimensions is both dangerous and imprecise. At any point, the fabric of space-time could collapse if the proper amounts of 115 are not maintained. I am also concerned about the unknown effects of trans-dimensional jumps. I have noticed even with my brief travels that new memories and emotions have flooded my mind, suddenly appearing from nowhere. I am also sure something is happening on a molecular level as well.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 5
+          },
+          {
+            "name": "Cipher #7",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Base64",
+              "documentation_link": "https://en.wikipedia.org/wiki/Base64"
+            },
+            "texture_name": "i_mtl_p7_zm_isl_cypher_07_c",
+            "key": "",
+            "ciphertext": "RW50cnkgNTg6IFdlIGhhdmUgYmVlbiBoYXZpbmcgcG93ZXIgZmx1Y3R1YXRpb25zIGZvciB0aGUgcGFzdCBjb3VwbGUgb2YgZGF5cy4= {{ NEW_LINE }} Q29uc2VxdWVudGx5LCB3ZSBoYXZlIGhhZCB0byByZWx5IG1vcmUgYW5kIG1vcmUgb24gdGhlIGJhY2t1cCBnZW5lcmF0b3JzLg== {{ NEW_LINE }} SXQncyBzdHJhbmdlLCBldmVyIHNpbmNlIHdlIGhhdmUgYmVlbiBoYXZpbmcgaXNzdWVzIHdpdGggdGhlIHBvd2VyLCBwZW9wbGUgYXJlIHJlcG9ydGluZyBoZWFyaW5nIHZvaWNlcyBjb21pbmcgZnJvbSB0aGUgd2FsbHMu {{ NEW_LINE }} VGhleSBzYXkgdGhleSBjYW4gaGVhciBxdWlldCBzb2JiaW5nIGZyb20gYSBib3kgYW5kIGEgZ2lybCwgYXMgd2VsbCBhcywgYSBtYW4gc2hvdXRpbmcgZm9yIGNoaWxkcmVuIHRvIGNsb3NlIHRoZSB3aW5kb3dzLg== {{ NEW_LINE }} SSBoYXZlIG5vdCBoZWFyZCB0aGUgdm9pY2VzLCBidXQgSSBoYXZlIHRvIGFkbWl0IHNvbWV0aGluZyBmZWVscyBkaWZmZXJlbnQgYWJvdXQgdGhpcyBwbGFjZQ==",
+            "is_solved": true,
+            "plaintext": "Entry 58: We have been having power fluctuations for the past couple of days. Consequently, we have had to rely more and more on the backup generators. It's strange, ever since we have been having issues with the power, people are reporting hearing voices coming from the walls. They say they can hear quiet sobbing from a boy and a girl, as well as, a man shouting for children to close the windows. I have not heard the voices, but I have to admit something feels different about this place",
+            "formatted_plaintext": "Entry 58: We have been having power fluctuations for the past couple of days. Consequently, we have had to rely more and more on the backup generators. It's strange, ever since we have been having issues with the power, people are reporting hearing voices coming from the walls. They say they can hear quiet sobbing from a boy and a girl, as well as, a man shouting for children to close the windows. I have not heard the voices, but I have to admit something feels different about this place.",
+            "anomalies": [
+              {
+                "issue": "Incorrect Ciphertext",
+                "description": "Line 3 has the wrong input, and should start with SXQncy... instead of SXZcy..."
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 6
+          },
+          {
+            "name": "Cipher #7",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Running Key",
+              "documentation_link": "https://en.wikipedia.org/wiki/Running_key_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_isl_cypher_0????_c",
+            "key": "Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension, Ascension",
+            "ciphertext": "Mq pezw qg zy fcqr. Eg bnmw? QL. Lwa, wg ik iiekp. Vbw dqrt zijr I tgia xtcntapk? Zavigek? Ainja? Kuejg mf fwk? V gmgwf A koa fgtkvnm Mhra. K uhabs yicg ql fmk sojo. Lzeu, kuejg ez A vcj. A ukxl gv tvrw dc n jqjrr. A mrbo bvvs hnepw. Nwaadnc, V su vbmw.",
+            "is_solved": true,
+            "plaintext": "My name is my name. My name? OH. Yes, it is gersh. How long have I been floating? Minutes? Years? Where is now? I guess I can forgive Yuri. I quite like my new form. Hmmm, where am I now. A city on fire by a river. I know this place. Finally, I am home.",
+            "formatted_plaintext": "My name is my name. My name? OH. Yes, it is gersh. How long have I been floating? Minutes? Years? Where is now? I guess I can forgive Yuri. I quite like my new form. Hmmm, where am I now. A city on fire by a river. I know this place. Finally, I am home.",
+            "anomalies": [
+              {
+                "issue": "Incorrect Ciphertext",
+                "description": "Line 3 has the wrong input, and should start with SXQncy... instead of SXZcy..."
+              }
+            ],
+            "notes": [
+              "Uses entry 6 on the list of cipher keys as the key for this cipher."
+            ],
+            "relationships": [
+              {
+                "name_of_related_text": "Cipher List",
+                "map_name": "Zetsubou No Shima"
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 6
+          },
+          {
+            "name": "Cipher #8",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "A1Z26 (Numeric Substitution)",
+              "documentation_link": "https://en.wikipedia.org/wiki/Substitution_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_isl_cypher_08_c",
+            "key": "",
+            "ciphertext": "050423011804 0119 251521 11141523 0920 0919 09131605180120092205 2515 21 011404 200805 0718152116 06091404 200805 0524010320 2205181909151419 1506 25152118190512220519 20080120 09 08012205 0809070812090708200504 0914 20080120 16011820090321120118 131513051420 0914 20091305 23091212 2305 0205 19210303051919062112 15140305 05010308 1506 25152118 1520080518 1905120519 011805 110912120504 011404 0102191518020504 20080525 23091212 0305011905 2015 0524091920 010318151919 011212 211409220518190519 1805130513020518 2305 011805 15141225 091313211405 02050301211905 2305 151605140504 200805 161518200112 0914 061801140305 022120 09 0113 010618010904 20080919 1309070820 1415200205 160518130114051420 09 06050118 2008051805 0919 191513052008091407 13 091914 20 20051212091407 1305 011404 20080120 2008051805 0919 141520 13210308 20091305 12050620 061518 2119",
+            "is_solved": true,
+            "plaintext": "EDWARD AS YOU KNOW IT IS IMPERATIVE YOU AND THE GROUP FIND THE EXACT VERSIONS OF YOURSELVES THAT I HAVE HIGHLIGHTED IN THAT PARTICULAR MOMENT IN TIME WILL WE BE SUCCESSFUL ONCE EACH OF YOUR OTHER SELFS ARE KILLED AND ABSORBED THEY WILL CEASE TO EXIST ACROSS ALL UNIVERSES REMEMBER WE ARE ONLY IMMUNE BECAUSE WE OPENED THE PORTAL IN FRANCE BUT I AM AFRAID THIS MIGHT NOT BE PERMANENT I FEAR THERE IS SOMETHING M ISNT TELLING ME AND THAT THERE IS NOT MUCH TIME LEFT FOR US",
+            "formatted_plaintext": "Edward, as you know it is imperative you and the group find the exact versions of yourselves that I have highlighted in that particular moment in time. Will we be successful once each of your other selfs are killed and absorbed? They will cease to exist across all universes. Remember, we are only immune because we opened the portal in France, but I am afraid this might not be permanent. I fear there is something M isn't telling me and that there is not much time left for us.",
+            "anomalies": [
+              {
+                "issue": "Wording Mistranslated",
+                "description": "It seems that 23091212 and 2305 should be swapped since this poses a question, but it could be both interpretations."
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 7
+          },
+          {
+            "name": "Cipher #4",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Navajo code",
+              "documentation_link": "https://www.ancestrycdn.com/aa-k12/2064/assets/Navajo-Code-Talkers-dictionary.pdf"
+            },
+            "texture_name": "i_mtl_p7_zm_ctl_cypher2_04_c",
+            "key": "",
+            "ciphertext": "A-CHI BE-TKAH JO BE-TKAH AH-LOSZ AH-JAH MOASI DZEH YEH-HES A-KEH-DI-GLINI DZEH LHA-CHA-EH BE-TKAH WOL-LA-CHEE TSAH NE-AHS-JAH THAN-ZIE AH-JAH GAH BE-TKAH A-WOH NE-AHS-JAH TSAH-AS-ZIH BE-TKAH CLA-GI-AIH TLO-CHIN KLESH THAN-ZIE DZEH LHA-CHA-EH BE-TKAH BE-GHA BE-TKAH TSIN-TLITI",
+            "is_solved": true,
+            "plaintext": "I HAVE RECEIVED ANOTER TOY POSTED BY M",
+            "formatted_plaintext": "I have received another toy. Posted by M.",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 8
+          },
+          {
+            "name": "Cipher #10",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Vigenère",
+              "documentation_link": "https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher"
+            },
+            "texture_name": "i_mtl_p7_zm_isl_cypher_10_c",
+            "key": "Mother",
+            "ciphertext": "Ocfyeuq, W avtv fvxzi jovxtekuql yirov rvy zz hbti ja cny wtusgamjfg vhr dmyx bwv at moid, rck P oeak moi nqgmIve rfhux ze cg alv nfbuo fr qhsprbgx. Alves ljlvyompgj U vtci jfcelr wdcf Nvfgd 935 pppc qbtipv gg mv gfzgmyytf cny snz khuhvd kxhtfzg pomtt kbsp yqzi bw kgfg alv fwwl sw fvx dei mbw nmmq il cmtfckf smqf moi Xqffhr guul. P jvmf, avavhsk, P azxz gvx cujx as jqs momj. --H",
+            "is_solved": true,
+            "plaintext": "Comrade, I hope these schematics reach you in time so our scientists can make use of them, for I know the western front is on the brink of collapse. These schematics I have stolen from Group 935 will enable us to construct our own wonder weapons which will help us turn the tide of the war and give us victory over the German pigs. I fear, however, I will not live to see this. --V",
+            "formatted_plaintext": "Comrade, I hope these schematics reach you in time so our scientists can make use of them, for I know the western front is on the brink of collapse. These schematics I have stolen from Group 935 will enable us to construct our own wonder weapons which will help us turn the tide of the war and give us victory over the German pigs. I fear, however, I will not live to see this. --V",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              "Uses entry 3 on the list of cipher keys as the key for this cipher."
+            ],
+            "relationships": [
+              {
+                "name_of_related_text": "Cipher List",
+                "map_name": "Zetsubou No Shima"
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 9
+          },
+          {
+            "name": "Cipher #14",
+            "location": {
+              "name": "",
+              "reference_images": [
+                ""
+              ]
+            },
+            "type": {
+              "name": "Hexadecimal",
+              "documentation_link": "https://en.wikipedia.org/wiki/Hexadecimal"
+            },
+            "texture_name": "i_mtl_p7_zm_isl_cypher_14_e",
+            "key": "",
+            "ciphertext": "53 4f 50 48 49 41 2d 20 43 79 63 6c 69 63 20 72 65 64 75 6e 63 79 20 63 68 65 63 6b 20 3d 20 46 41 49 4c",
+            "is_solved": true,
+            "plaintext": "SOPHIA- Cyclic reduncy check = FAIL",
+            "formatted_plaintext": "SOPHIA- Cyclic reduncy check = FAIL",
+            "anomalies": [
+              {
+                "issue": "",
+                "description": ""
+              }
+            ],
+            "notes": [
+              ""
+            ],
+            "relationships": [
+              {
+
+              }
+            ],
+            "steps": [
+              "1. "
+            ],
+            "order": 13
           }
         ]
       }
