@@ -1696,15 +1696,15 @@
               ]
             },
             "type": {
-              "name": "Unknown",
-              "documentation_link": ""
+              "name": "Autokey Vigenère",
+              "documentation_link": "https://en.wikipedia.org/wiki/Autokey_cipher"
             },
             "texture_name": "i_mtl_p7_zm_sta_note_cypher_12_c",
-            "key": "",
+            "key": "Key: TRYTHIS, Alphabet: ZOMBIESAREEVERYWHERE (Alphabet Key: ZOMBIESARVYWHCDFGJKLNPQTUX)",
             "ciphertext": "Rc qipv jhx vld plson fhceuh itp jui gh qhzu dg sq xie dhw. U gbfl lf fluz pcag wrgkv zw, dinyg zw, qge gnvm L fhx.",
-            "is_solved": false,
-            "plaintext": "",
-            "formatted_plaintext": "",
+            "is_solved": true,
+            "plaintext": "We have won the great battle and now we must be on our way. I fear he will come after us, after me, for what I did.",
+            "formatted_plaintext": "We have won the great battle and now we must be on our way. I fear he will come after us, after me, for what I did.",
             "anomalies": [
               {
                 "issue": "",
